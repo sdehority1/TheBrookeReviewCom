@@ -386,10 +386,6 @@ html {
 }
 
 
-body {
-  margin: 0;
-}
-
 /* NAV NAV  NAV NAV  NAV NAV  NAV NAV  */
 nav {
   position: -webkit-sticky;
@@ -506,11 +502,14 @@ This stacks at breakpoint */
   flex-direction:column;
   text-align: center;
   justify-content: center;
+  align-items: center;
+  border: 1px solid black; 
 }
 
 #brookePic {
-  height: 100%;
-  width: 100%;
+  height: 65%;
+  width: 65%;
   object-fit: cover;
-  clip-path: circle(30%)
+  /* clip-path: circle(30%)  */
 }
+
